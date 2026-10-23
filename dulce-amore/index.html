@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dulce Amore - Tortas, Cupcakes y Bocaditos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-title">
+            <h1>Dulce Amore</h1>
+            <p>Tortas, Cupcakes y Bocaditos</p>
+        </div>
+        <div class="logo-container">
+            <img src="img/logo.png" alt="Logo Dulce Amore">
+        </div>
+    </header>
+
+    <section class="hero">
+        <h2>¡Endulzamos tus mejores momentos! ✨</h2>
+        <p>Hacemos postres artesanales y bocaditos deliciosos hechos con mucho amor para tus eventos, cumpleaños y sorpresas especiales.</p>
+        <a href="https://wa.me/946391459?text=Hola,%20quisiera%20hacer%20un%20pedido%20en%20Dulce%20Amore" class="btn-whatsapp" target="_blank">¡Contáctanos por WhatsApp!</a>
+    </section>
+
+    <div class="container">
+        <h2 class="section-title">Nuestro Catálogo</h2>
+        
+        <div class="filter-container">
+            <button class="filter-btn active" data-filter="all">Todos</button>
+            <button class="filter-btn" data-filter="bocaditos">Bocaditos</button>
+            <button class="filter-btn" data-filter="postres">Postres</button>
+            <button class="filter-btn" data-filter="tortas-comunes">Tortas Comunes</button>
+            <button class="filter-btn" data-filter="tortas-personalizadas">Tortas Personalizadas</button>
+            <button class="filter-btn" data-filter="cupcakes">Cupcakes</button>
+        </div>
+        
+        <div class="catalog-grid">
+            <div class="product-card" data-category="bocaditos">
+                <img src="img/enrollichanchis.jpg" alt="Enrrollichanchis" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Enrrollichanchis 🐷</h3>
+                    <p class="product-desc">Riquísimos enrolladitos de hot dog con forma de chanchitos, acompañados con crema de ají y/o salsa golf(18 unid.).</p>
+                    <div class="product-footer">
+                        <span class="product-price">PEN 35.00</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="bocaditos">
+                <img src="img/trufas.jpg" alt="Trufas de chocolate" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Trufas de chocolate 🍫</h3>
+                    <p class="product-desc">Deliciosas trufas de chocolate ideales para regalar o compartir en cualquier ocasión especial(10 unid.).</p>
+                    <div class="product-footer">
+                        <span class="product-price">PEN 15.00</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="tortas-comunes">
+                <img src="img/torta-3-leches.jpg" alt="Torta Tres Leches" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Torta Tres Leches 🍰</h3>
+                    <p class="product-desc">Suave bizcocho húmedo bañado en tres tipos de leche con cobertura de merengue y canela.</p>
+                    <div class="product-footer">
+                    <span class="product-price">Precio a tratar</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="tortas-personalizadas">
+                <img src="img/torta-de-rosas.jpg" alt="Torta Temática" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Torta de Rosas🌹</h3>
+                    <p class="product-desc">Hermosa y elegante torta personalizada tematica de rosas, forrada en fino fondant blanco y decorada con hermosos detalles en tonos rojo y verde.</p>
+                    <div class="product-footer">
+                    <span class="product-price">Precio a tratar</span>
+                    </div>
+                </div>
+            </div>
+               <div class="product-card" data-category="tortas-personalizadas">
+                <img src="img/torta-flores-amarillas.jpg" alt="Torta Temática" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Torta de Girasoles🌻</h3>
+                    <p class="product-desc">Hermosa y delicada torta de pisos forrada en fino fondant blanco suave. Destaca por una preciosa cascada de flores amarillas estilo girasoles que cae desde la parte superior hasta la base.</p>
+                    <div class="product-footer">
+                        <span class="product-price">Precio a tratar</span>
+                    </div>
+                </div>
+            </div>
+               <div class="product-card" data-category="bocaditos">
+                <img src="img/tequeños.jpg" alt="Torta Temática" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Tequeños de Queso🌯</h3>
+                    <p class="product-desc">Crujientes tequeños fritos en masa fina doradita, derretidos por dentro con abundante queso fresco y acompañados de una deliciosa salsa golf.</p>
+                    <div class="product-footer">
+                        <span class="product-price">Precio a tratar</span>
+                    </div>
+                </div>
+            </div>
+              <div class="product-card" data-category="bocaditos">
+                <img src="img/tequeños.jpg" alt="Torta Temática" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Tequeños de Hot dog🌯</h3>
+                    <p class="product-desc">Deliciosos enrollados de masa frita bien dorada y crujiente, rellenos con jugosos trozos de hot dog que Vienen acompañados con su salsa golf para disfrutar en cada bocado.</p>
+                    <div class="product-footer">
+                        <span class="product-price">Precio a tratar</span>
+                    </div>
+                </div>
+            </div>
+             <div class="product-card" data-category="bocaditos">
+                <img src="img/empanadas.jpg" alt="Torta Temática" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Empanadas de Carne🥟</h3>
+                    <p class="product-desc">Exquisitas empanaditas horneadas de masa suave y doradita, rellenas con un jugoso y sazonado guiso de carne molida seleccionada.</p>
+                    <div class="product-footer">
+                        <span class="product-price">Precio a tratar</span>
+                    </div>
+                </div>
+            </div>
+             <div class="product-card" data-category="bocaditos">
+                <img src="img/empanadas.jpg" alt="Torta Temática" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Empanadas de Pollo🥟</h3>
+                    <p class="product-desc">Crujientes y doradas empanaditas artesanales con un delicioso relleno de pollo deshilachado sazonado a la perfección.</p>
+                    <div class="product-footer">
+                        <span class="product-price">Precio a tratar</span>
+                    </div>
+                </div>
+            </div>
+             <div class="product-card" data-category="cupcakes">
+                <img src="img/ramo-cupcakes.jpg" alt="Producto" class="product-imag">
+                <img src="img/ramo-cupcakes1.jpg" alt="Producto" class="product-imag">
+                <img src="img/ramo-cupcakes2.jpg" alt="Producto" class="product-imag">
+                <img src="img/ramo-cupcakes3.jpg" alt="Producto" class="product-imag">
+                <div class="product-info">
+                    <h3 class="product-title">Ramo de Cupcakes💐</h3>
+                    <p class="product-desc">Un detalle dulce, elegante e inolvidable. Hermoso ramo de 6 cupcakes artesanales decorados con rosas modeladas en azúcar y un cupcake central personalizado con el nombre del agasajado.</p>
+                    <div class="product-footer">
+                        <span class="product-price">Precio a tratar</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card" data-category="bocaditos">
+                <img src="img/alfajores-de-maicena.jpg" alt="Producto" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Alfajores de Maicena🍪</h3>
+                    <p class="product-desc">Clásicos Alfajores de Maicena: Tiernas galletas artesanales rellenas de manjar blanco y cubierta por una fina capa de azúcar impalpable. ¡Imposible comer solo uno!</p>
+                    <div class="product-footer">
+                        <span class="product-price">Precio a tratar</span>
+                    </div>
+                </div>
+            </div>
+             <div class="product-card" data-category="tortas-comunes">
+                <img src="img/cake-maracuya.jpg" alt="Producto" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Cake de Maracuya🍞</h3>
+                    <p class="product-desc">Bizcochuelo esponjoso y aromático bañado en una deliciosa glasa artesanal de maracuyá. El equilibrio perfecto entre lo dulce y lo cítrico.</p>
+                    <div class="product-footer">
+                        <span class="product-price">Precio a tratar</span>
+                    </div>
+                </div>
+            </div>
+             <div class="product-card" data-category="tortas-comunes">
+                <img src="img/cake-marmoleado.jpg" alt="Producto" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Cake Marmoleado🍞</h3>
+                    <p class="product-desc">Clásico bizcochuelo esponjoso que combina el suave sabor de la vainilla con ondas de rico chocolate. ¡Ideal para acompañar tu café o lonche!</p>
+                    <div class="product-footer">
+                        <span class="product-price">Precio a tratar</span>
+                    </div>
+                </div>
+            </div>
+             <div class="product-card" data-category="tortas-comunes">
+                <img src="img/cake-platano.jpg" alt="Producto" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Cake de Platano🍞</h3>
+                    <p class="product-desc">Suave y húmedo cake artesanal elaborado con plátanos maduros seleccionados y chispas de chocolate. ¡Un sabor casero e irresistible!</p>
+                    <div class="product-footer">
+                        <span class="product-price">Precio a tratar</span>
+                    </div>
+                </div>
+            </div>
+             <div class="product-card" data-category="tortas-comunes">
+                <img src="img/cake-zanahoria.jpg" alt="Producto" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Cake de Zanahoria🍞</h3>
+                    <p class="product-desc">Bizcochuelo súper suave y especiado, elaborado con zanahorias frescas y cubierta glaseada. Un clásico irresistible para cualquier ocasión.</p>
+                    <div class="product-footer">
+                        <span class="product-price">Precio a tratar</span>
+                    </div>
+                </div>
+            </div>
+             <div class="product-card" data-category="postres">
+                <img src="img/crema-volteada.jpg" alt="Producto" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Crema Volteada🍮</h3>
+                    <p class="product-desc">Tradicional postre de textura suave y cremosa, cubierto con un exquisito caramelo dorado hecho en casa. ¡Se deshace en la boca!</p>
+                    <div class="product-footer">
+                        <span class="product-price">Precio a tratar</span>
+                    </div>
+                </div>
+            </div>
+             <div class="product-card" data-category="cupcakes">
+                <img src="img/cupcakes-amor.jpg" alt="Producto" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Cupcakes de Amor❤️</h3>
+                    <p class="product-desc">Set de cupcakes decorados con detalles románticos en masa elástica y mensajes especiales. ¡El regalo perfecto para sorprender a tu persona favorita!</p>
+                    <div class="product-footer">
+                        <span class="product-price">Precio a tratar</span>
+                    </div>
+                </div>
+            </div>
+             <div class="product-card" data-category="cupcakes">
+                <img src="img/cupcakes-dia-madre.jpg" alt="Producto" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Cupcakes del Dia de las Madres🧁</h3>
+                    <p class="product-desc">Exclusivos cupcakes decorados con lindas rosas y mensajes dedicados con mucho amor para celebrar a mamá en su día.</p>
+                    <div class="product-footer">
+                        <span class="product-price">Precio a tratar</span>
+                    </div>
+                </div>
+            </div>
+             <div class="product-card" data-category="cupcakes">
+                <img src="img/cupcakes-morados.jpg" alt="Producto" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Cupcakes Morados💜</h3>
+                    <p class="product-desc">Lindos cupcakes decorados en tonos morados con delicadas flores y detalles personalizados para regalar.</p>
+                    <div class="product-footer">
+                        <span class="product-price">Precio a tratar</span>
+                    </div>
+                </div>
+            </div>
+             <div class="product-card" data-category=cupcakes"">
+                <img src="img/cupcakes-pinguinos-amor.jpg" alt="Producto" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Pingu Cupcakes🐧</h3>
+                    <p class="product-desc">Divertidos cupcakes decorados con tiernos pingüinos y detalles personalizados en fondant. ¡Ideales para sorprender!</p>
+                    <div class="product-footer">
+                        <span class="product-price">Precio a tratar</span>
+                    </div>
+                </div>
+            </div>
+             <div class="product-card" data-category="cupcakes">
+                <img src="img/cupcakes-universitario.jpg" alt="Producto" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Cupcakes Universitario de Deportes⚽</h3>
+                    <p class="product-desc">Cupcakes personalizados con la insignia y colores del cuadro crema. ¡El detalle perfecto para el hincha merengue!</p>
+                    <div class="product-footer">
+                        <span class="product-price">Precio a tratar</span>
+                    </div>
+                </div>
+            </div>
+             <div class="product-card" data-category="bocaditos">
+                <img src="img/enrolladitos-hotdog.jpg" alt="Producto" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Enrrollados de Hot Dog🌭</h3>
+                    <p class="product-desc">Deliciosos bocaditos de hojaldre o masa suave rellenos con jugoso hot dog. ¡Los infaltables de toda fiesta!</p>
+                    <div class="product-footer">
+                        <span class="product-price">Precio a tratar</span>
+                    </div>
+                </div>
+            </div>
+             <div class="product-card" data-category="postres">
+                <img src="img/leche-asada.jpg" alt="Producto" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Leche Asada🥛</h3>
+                    <p class="product-desc">Postre casero horneado a la perfección con una capa dorada arriba y un toque único de vainilla y canela.</p>
+                    <div class="product-footer">
+                        <span class="product-price">Precio a tratar</span>
+                    </div>
+                </div>
+            </div>
+             <div class="product-card" data-category="postres">
+                <img src="img/Mazamorra.jpg" alt="Producto" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Mazamorra Morada💜</h3>
+                    <p class="product-desc">Tradicional postre peruano a base de maíz morado, piña y frutas secas, perfumado con canela y clavo de olor.</p>
+                    <div class="product-footer">
+                        <span class="product-price">Precio a tratar</span>
+                    </div>
+                </div>
+            </div>
+             <div class="product-card" data-category="bocaditos">
+                <img src="img/peti-panes.jpg" alt="Producto" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Pettit Pan🥪</h3>
+                    <p class="product-desc">Suaves y esponjosos panecillos ideales para rellenar con pollo, jamón o queso en tus reuniones y eventos.</p>
+                    <div class="product-footer">
+                        <span class="product-price">Precio a tratar</span>
+                    </div>
+                </div>
+            </div>
+             <div class="product-card" data-category="postres">
+                <img src="img/pie-limon.jpg" alt="Producto" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Pie de Limon🥧</h3>
+                    <p class="product-desc">Crujiente base de galleta rellena con una cremosa crema de limón y coronada con un suave merengue horneado.</p>
+                    <div class="product-footer">
+                        <span class="product-price">Precio a tratar</span>
+                    </div>
+                </div>
+            </div>
+             <div class="product-card" data-category="bocaditos">
+                <img src="img/piernas-pollo.jpg" alt="Producto" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Piernas de Pollo🍗</h3>
+                    <p class="product-desc">Jugosas y crujientes piernas de pollo empanizadas y sazonadas con nuestra receta secreta. ¡Listas para disfrutar!</p>
+                    <div class="product-footer">
+                        <span class="product-price">Precio a tratar</span>
+                    </div>
+                </div>
+            </div>
+             <div class="product-card" data-category="tortas-personalizadas">
+                <img src="img/torta-avengers.jpg" alt="Producto" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Torta de los Vengadores🦸‍♂️</h3>
+                    <p class="product-desc">Torta temática de tus superhéroes favoritos decorada con detalles en 3D de Iron Man, Capitán América y Thor.</p>
+                    <div class="product-footer">
+                        <span class="product-price">Precio a tratar</span>
+                    </div>
+                </div>
+            </div>
+             <div class="product-card" data-category="tortas-comunes">
+                <img src="img/torta-brownie.jpg" alt="Producto" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Torta Brownie🎂</h3>
+                    <p class="product-desc">Intensa base de brownie melcochudo cubierta de manjar blanco, fudge casero y coloridos toppings.</p>
+                    <div class="product-footer">
+                        <span class="product-price">Precio a tratar</span>
+                    </div>
+                </div>
+            </div>
+             <div class="product-card" data-category="tortas-comunes">
+                <img src="img/torta-chocolate-pecana.jpg" alt="Producto" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Torta de Chocolate con Pecanas🎂</h3>
+                    <p class="product-desc">Húmida torta de puro chocolate rellena de fudge artesanal y coronada con generosas pecanas picadas.</p>
+                    <div class="product-footer">
+                        <span class="product-price">Precio a tratar</span>
+                    </div>
+                </div>
+            </div>
+             <div class="product-card" data-category="tortas-personalizadas">
+                <img src="img/torta-contador.jpg" alt="Producto" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Torta de Contador👨‍💼</h3>
+                    <p class="product-desc">Torta temática personalizada para contadores con figuras modeladas en azúcar: calculadora, boletas, facturas y lapiceros.</p>
+                    <div class="product-footer">
+                        <span class="product-price">Precio a tratar</span>
+                    </div>
+                </div>
+            </div>
+             <div class="product-card" data-category="tortas-comunes">
+                <img src="img/torta-selva-negra.jpg" alt="Producto" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Torta Selva Negra🎂</h3>
+                    <p class="product-desc">Clásica combinación de bizcochuelo de chocolate, abundante crema chantilly, cerezas al marrasquino, duraznos en almíbar y drip de fudge.</p>
+                    <div class="product-footer">
+                        <span class="product-price">Precio a tratar</span>
+                    </div>
+                </div>
+            </div>
+             <div class="product-card" data-category="tortas-personalizadas">
+                <img src="img/torta-vaca-lola.jpg" alt="Producto" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title">Torta de la Vaca Lola🐄</h3>
+                    <p class="product-desc">Torta infantil en 3D inspirada en la Vaca Lola, decorada con lindos colores pastel e ideal para los más pequeños.</p>
+                    <div class="product-footer">
+                        <span class="product-price">Precio a tratar</span>
+                    </div>
+                </div>
+            </div>
+             <div class="product-card" data-category="">
+                <img src="img/.jpg" alt="Producto" class="product-img">
+                <div class="product-info">
+                    <h3 class="product-title"></h3>
+                    <p class="product-desc"></p>
+                    <div class="product-footer">
+                        <span class="product-price">Precio a tratar</span>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2026 Dulce Amore - Todos los derechos reservados.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
